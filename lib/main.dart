@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:smc_app/pages/demo.dart';
+import 'package:smc_app/pages/drower.dart';
 import 'package:smc_app/pages/home.dart';
 import 'package:smc_app/pages/login.dart';
 import 'package:smc_app/pages/register.dart';
@@ -19,6 +20,7 @@ class MyRoutes {
  static String LoginPage= "/login";
  static String RegisterPage= "/register";
  static String DemoPage= "/demo";
+ static String DrowerPage= "/Drower";
 
 }
 
@@ -42,6 +44,7 @@ class MyApp extends StatelessWidget {
         MyRoutes.LoginPage: (context) => const login(),
         MyRoutes.RegisterPage: (context) => const register(),
         MyRoutes.DemoPage: (context) => const demo(),
+        MyRoutes.DrowerPage: (context) => const DrowerP(),
       }
       
      

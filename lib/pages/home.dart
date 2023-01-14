@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_image_slideshow/flutter_image_slideshow.dart';
+import 'package:smc_app/pages/drower.dart';
 
 import '../main.dart';
 
@@ -54,6 +55,7 @@ class _homeState extends State<home> {
           "Surat Muncipal Corporatiopn",
         ),
       ),
+      drawer: DrowerP(),
       body: Column(
         children: [
           ImageSlideshow(
