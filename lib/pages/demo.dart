@@ -1,6 +1,6 @@
+// ignore_for_file: camel_case_types, prefer_const_literals_to_create_immutables
+
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 
 class demo extends StatelessWidget {
   const demo({super.key});
@@ -14,7 +14,7 @@ class demo extends StatelessWidget {
         children: [
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: [
+            children: const [
               Text("404",style: TextStyle(
                 fontSize: 60,
                 color: Color.fromARGB(96, 116, 114, 114)
@@ -24,6 +24,7 @@ class demo extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              // ignore: prefer_const_constructors
               Text("page is not found......!",style: TextStyle(fontSize: 17)),
             ],
           )
